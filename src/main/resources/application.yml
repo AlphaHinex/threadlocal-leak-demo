@@ -1,0 +1,11 @@
+spring:
+  task:
+    execution:
+      pool:
+        core-size: 10
+        max-size: 10
+        queue-capacity: 1000000
+
+logging:
+  level:
+    io.github.alphahinex: debug
